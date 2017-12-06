@@ -20,4 +20,12 @@ module.exports = {
       },
     ],
   },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        // Turns on glamor's speedy mode
+        NODE_ENV: JSON.stringify('production'),
+      },
+    }),
+  ],
 }
