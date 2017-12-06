@@ -1,0 +1,20 @@
+{
+  "name": "glamor-file-protocol-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+  	"build": "node_modules/.bin/webpack --config webpack.config.js",
+  	"http": "node_modules/.bin/http-server public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "glamor": "^2.20.40",
+    "http-server": "^0.10.0",
+    "webpack": "^3.10.0"
+  }
+}
